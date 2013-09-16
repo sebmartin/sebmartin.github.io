@@ -1,0 +1,118 @@
+/*#8d7376;*/
+@media (min-width: 750px) {
+  .section {
+    padding-top: 40px;
+    padding-bottom: 80px;
+  }
+}
+body {
+  background-color: #7b393a;
+  font-family: 'Source Sans Pro';
+  font-weight: 300;
+}
+@media (max-width: 991px) {
+  body {
+    font-size: 2.0em;
+  }
+}
+@media (min-width: 768px) {
+  body {
+    font-size: 2.5em;
+  }
+}
+@media (min-width: 992px) {
+  body {
+    font-size: 3.0em;
+  }
+}
+.page-header {
+  border: none;
+  margin-bottom: 0px;
+}
+.lead {
+  margin-bottom: 0px;
+  color: #3d6d70;
+}
+h1 .firstpartofthe.heading {
+  font-weight: 400;
+}
+h1 .restofthe.heading {
+  font-weight: 100;
+}
+p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.header.section {
+  background-color: #b9d7d9;
+  padding: inherit;
+  padding-bottom: 10px;
+}
+@media (max-width: 991px) {
+  .header.section h1 .heading {
+    font-size: 1.4em;
+  }
+}
+@media (min-width: 768px) {
+  .header.section h1 .heading {
+    font-size: 2.2em;
+  }
+}
+@media (min-width: 992px) {
+  .header.section h1 .heading {
+    font-size: 2.8em;
+  }
+}
+.contact.section {
+  padding: 8px;
+  background-color: #a8ced0;
+  text-align: right;
+}
+.contact.section img.logo {
+  padding: 1px;
+  border: 3px solid #303030;
+}
+.contact.section .logo-wrapper {
+  margin-left: 24px;
+}
+@media (max-width: 991px) {
+  .contact.section {
+    padding-left: 0px;
+    text-align: center;
+  }
+}
+.about.section {
+  color: #223c3e;
+  background-color: #f2f2f2;
+}
+.about.section a,
+.about.section a:active,
+.about.section a:visited,
+.about.section a:hover {
+  color: #472121;
+  text-decoration: none;
+  border-bottom: 1px solid #af5253;
+}
+.about.section a:hover {
+  border-width: 2px;
+}
+.about.section .light-em {
+  font-weight: 100;
+  font-style: italic;
+}
+.attribution.section {
+  padding-top: inherit;
+  padding-bottom: inherit;
+  font-size: 0.6em;
+  font-weight: 300;
+  color: #b76364;
+  text-align: center;
+}
+.attribution.section a {
+  font-weight: 400;
+  text-decoration: none;
+  color: #bf7576;
+}
+.attribution.section a:hover {
+  text-decoration: underline;
+}
