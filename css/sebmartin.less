@@ -8,7 +8,6 @@
 
 @project-bg: #423131;
 @project-text: #bbadae;
-@project-text-header: lighten(@project-bg, 30%); /*#8d7376;*/
 
 @project-item-bg: darken(@project-bg, 3%);
 
@@ -44,11 +43,11 @@ body {
 	color: darken(@header-bg, 45%);
 }
 
-h1 .firstpartofthe.heading {
+.firstpartofthe.heading {
     font-weight: 400;
 }
 
-h1 .restofthe.heading {
+.restofthe.heading {
 	font-weight: 100;
 }
 
@@ -87,6 +86,10 @@ p {
 		padding: 1px;
 		border: 3px solid @logo;
 	}
+	img.logo:hover {
+		border: 3px solid lighten(@body, 5%);
+	}
+
 	.logo-wrapper {
 		margin-left: 24px;
 	}
@@ -113,6 +116,50 @@ p {
 	.light-em {
 		font-weight: 100;
 		font-style: italic;
+	}
+}
+
+.projects.section {
+	background-color: @project-bg;
+	border-bottom: 8px solid darken(@project-bg, 3%);
+	color: @project-text;
+
+	h1 {
+		color: lighten(@project-bg, 32%);
+	}
+
+	.project {
+		background-color: @project-item-bg;
+		padding: 14px;
+		border-radius: 10px;
+		border-top: 1px solid darken(@project-item-bg, 3%);
+		border-bottom: 1px solid lighten(@project-item-bg, 10%);
+		margin-bottom: 12px;
+
+		a { 
+			color: lighten(@project-bg, 20%);
+			text-decoration: none;
+		}
+		a:hover {
+			text-decoration: underline;
+		}
+		h3 {
+			margin-top: 0px;
+			margin-bottom: 0px;
+			color: lighten(@project-bg, 38%);
+			a, a:hover { 
+				color: lighten(@project-bg, 38%);
+				text-decoration: none;
+			}
+		}
+		h4 {
+			font-weight: 100;
+			font-size: 0.5em;
+		}
+		p {
+			font-size: 0.65em;
+			margin-bottom: 0px;
+		}
 	}
 }
 
